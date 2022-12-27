@@ -1,0 +1,58 @@
+<html>
+<head>
+<style>
+
+.navlink{
+display:inline;
+position:relative;
+padding-left:100px;
+}
+.dropdown-link{
+list-style-type:none;
+display:block;
+}
+
+.dropdown-content{
+display:none;
+position:absolute;
+z-index:1;
+background-color:lightgrey;
+padding:20px;
+width:100px;
+}
+.dropdown:hover .dropdown-content{
+display:block;
+}
+.navlink:hover{
+background-color:powderblue;
+}
+
+</style>
+
+</head>
+<body>
+ 
+<h1>Youtube</h1>
+
+<nav>
+<ul>
+<li class="navlink"><a href="#">Home</a></li>
+<li class="navlink"><a href="#">Shorts</a></li>
+<li class="navlink dropdown"><a href="#">Subscriptions</a>
+
+<ul class="dropdown-content">
+<li class="dropdown-link"><a href="#">Harsha-sai</a></li>
+<li class="dropdown-link"><a href="#">Harsha-sai Shorts</a></li>
+<li class="dropdown-link"><a href="#">Fit-ness</a></li>
+</ul>
+</li>
+
+
+
+<li class="navlink"><a href="#">Library</a></li>
+<li class="navlink"><a href="#">History</a></li>
+</ul>
+</nav>
+
+</body>
+</html>
